@@ -1,0 +1,68 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+
+}
+h1{
+	font-size: 26px;
+}
+.principal{
+	display: flex;
+	justify-content: space-between;
+}
+@media (max-width: 576px) {
+	.principal{
+		flex-wrap: wrap;
+	}
+}
+
+.izquierda{
+	display: flex;
+
+}
+
+.derecha .card  ul a li{
+	text-decoration: none;
+	color: black;
+}
+.descripcion p{
+	background: #F0F0F0;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: 'Oxygen Mono', monospace;
+
+}
+.tarjetas{
+	display: flex;
+	justify-content: space-around;
+	
+}
+@media (max-width: 576px) {
+	.tarjetas{
+		flex-wrap: wrap;
+	}
+}
+.t1{
+	width: 98%;
+  	height: 150px;
+	border-radius: 20px;
+	background-color: #019190
+}
+.imagen{
+	float: left;
+}
+.lenguaje p{
+	font-size: 13px;
+	color: white;
+}
+.t2{
+	width: 98%;
+  	height: 150px;
+	border-radius: 20px;
+	background-color: #910101; 
+}
+.t3{
+	width: 98%;
+  	height: 150px;
+	border-radius: 20px;
+	background-color: #0E57A2; 
+}
